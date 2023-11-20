@@ -2,6 +2,7 @@ from datasets import load_dataset
 from transformers import GPT2TokenizerFast
 from tqdm import tqdm
 import numpy as np
+import os
 
 tokenizer_path="tokenizer/tokenizer.json"
 dataset_dir="datasets/"
